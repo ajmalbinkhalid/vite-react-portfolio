@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+  color: white;
+  background-color: black;
+}
+
+/* Prevent Chrome autofill from overriding background and text color */
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px #1f2937 inset !important; /* same as bg-neutral-800 */
+  -webkit-text-fill-color: #ffffff !important; /* white text */
+  caret-color: white;
+  transition: background-color 9999s ease-in-out 0s; /* prevent flashing */
+}
+
+
+
+

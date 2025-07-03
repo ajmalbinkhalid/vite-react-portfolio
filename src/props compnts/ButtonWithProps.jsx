@@ -21,10 +21,10 @@ const ButtonWithProps = ({ text, icon: Icon, href, download = false, className =
   }
 
   return (
-    <button className={commonClasses}>
+    <a className={commonClasses}>
       {Icon && <Icon className="text-xl" />}
       {text}
-    </button>
+    </a>
   );
 };
 

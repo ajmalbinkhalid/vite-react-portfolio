@@ -4,7 +4,7 @@ import MessageToEmail from '../secondary compnts/MessageToEmail'
 
 const Contact = () => {
   return (
-    <div className='px-4 sm:px-4 md:px-6 lg:px-10 2xl:px-20 min-h-screen w-full bg-neutral-950 flex flex-col lg:flex-row items-center justify-evenly gap-y-10 gap-x-20 py-10'>
+    <div id="contact" className='px-4 sm:px-4 md:px-6 lg:px-10 2xl:px-20 min-h-screen w-full bg-black flex flex-col lg:flex-row items-center justify-evenly gap-y-10 gap-x-20 py-10'>
       <ContactInformation />
       <MessageToEmail />
     </div>

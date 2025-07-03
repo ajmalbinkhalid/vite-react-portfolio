@@ -5,7 +5,7 @@ import imageMe from '../assets/images/iq2.jpg';
 import { FaCode } from 'react-icons/fa';
 import Particles from '../react bits compnts/Particles';
 
-const AboutMe = () => {
+const About = () => {
   return (
     <div className="relative px-4 sm:px-4 md:px-6 lg:px-10 2xl:px-20 w-full min-h-screen flex flex-col lg:flex-row items-center justify-center gap-10 py-16 bg-neutral-950">
 
@@ -36,4 +36,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default About;

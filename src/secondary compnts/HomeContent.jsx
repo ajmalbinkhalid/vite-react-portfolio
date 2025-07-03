@@ -52,8 +52,7 @@ const HomeContent = () => {
                     <ButtonWithProps
                         text="My Work"
                         icon={FaArrowRight}
-                        download={true}
-                        href=''
+                        href='#projects'
                         className="border-blue-300 border-2 px-10 "
                     />
                 </StarBorder>
@@ -66,8 +65,7 @@ const HomeContent = () => {
                     thickness='3'>
                     <ButtonWithProps
                         text="Contact Me"
-                        download={true}
-                        href=''
+                        href='#contact'
                         className="border-blue-300 border-2 px-10 "
                     />
                 </StarBorder>

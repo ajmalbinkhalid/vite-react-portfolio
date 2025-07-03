@@ -23,11 +23,11 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6 lg:gap-8 font-medium">
-          <li><Link to="/home" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Home</Link></li>
-          <li><Link to="/about" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">About</Link></li>
-          <li><Link to="/projects" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Projects</Link></li>
-          <li><Link to="/skills" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Skills</Link></li>
-          <li><Link to="/contact" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Contact</Link></li>
+          <li><a href="#home" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Home</a></li>
+          <li><a href="#about" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">About</a></li>
+          <li><a href="#projects" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Projects</a></li>
+          <li><a href="#skills" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Skills</a></li>
+          <li><a href="#contact" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Contact</a></li>
         </ul>
 
         {/* Mobile Menu Toggle */}
@@ -42,11 +42,11 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <ul className="md:hidden bg-black px-4 sm:px-4 md:px-6 lg:px-10 pb-4 space-y-4 text-lg font-medium">
-          <li><Link to="/home" onClick={closeMenu}>Home</Link></li>
-          <li><Link to="/about" onClick={closeMenu}>About</Link></li>
-          <li><Link to="/projects" onClick={closeMenu}>Projects</Link></li>          
-          <li><Link to="/skills" onClick={closeMenu}>Skills</Link></li>
-          <li><Link to="/contact" onClick={closeMenu}>Contact</Link></li>
+          <li><a href="#home" onClick={closeMenu}>Home</a></li>
+          <li><a href="#about" onClick={closeMenu}>About</a></li>
+          <li><a href="#projects" onClick={closeMenu}>Projects</a></li>          
+          <li><a href="#skills" onClick={closeMenu}>Skills</a></li>
+          <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
         </ul>
       )}
     </nav>

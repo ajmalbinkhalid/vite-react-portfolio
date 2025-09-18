@@ -1,4 +1,3 @@
-import React from "react";
 import HomeContent from "../secondary compnts/HomeContent";
 import Orb from "../react bits compnts/Orb";
 import homeImage from "../assets/images/whitephoto.jpg";
@@ -6,7 +5,7 @@ import Particles from "../react bits compnts/Particles";
 
 const Home = () => {
   return (
-    <div className="px-4 sm:px-4 md:px-6 lg:px-10 2xl:px-15 relative w-full min-h-screen bg-black overflow-hidden">
+    <div className="px-5 sm:px-4 md:px-6 lg:px-10 2xl:px-15 relative w-full min-h-screen bg-black overflow-hidden">
 
       {/* Particle Background */}
       <div className="absolute top-0 left-0 w-full h-full z-0">

@@ -1,9 +1,7 @@
-import React from 'react';
 import AboutMeContent from '../secondary compnts/AboutMeContent';
 import ProfileCard from '../react bits compnts/ProfileCard';
 import imageMe from '../assets/images/iq2.jpg';
 import { FaCode } from 'react-icons/fa';
-import Particles from '../react bits compnts/Particles';
 
 const About = () => {
   return (

@@ -9,13 +9,14 @@ import Footer from './page compnts/Footer';
 import Home from './page compnts/Home';
 import Navbar from './page compnts/Navbar';
 import About from './page compnts/About';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   useEffect(() => {
     AOS.init({ duration: 1000 }); // animation duration in ms
   }, []);
   return (
-    <>
+    <div className='overflow-hidden'>
       <Navbar />
       <main>
         <section id="home"><Home /></section>
@@ -25,8 +26,10 @@ function App() {
         <section id="contact"><Contact /></section>
       </main>
       <Footer />
-    </>
+    </div>
+
   );
+
 }
 
 export default App;

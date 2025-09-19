@@ -24,7 +24,7 @@ const HomeContent = () => {
                     </GradientText>
                 </div>
                 <span className="text-4xl sm:text-5xl font-bold">
-                    Frontend Web Developer
+                    Mern Stack Developer
                 </span>
             </div>
 

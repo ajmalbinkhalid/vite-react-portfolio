@@ -7,7 +7,7 @@ import goNowImg from '../assets/images/gonowimg.png';
 
 const Projects = () => {
   return (
-    <div className="px-4 sm:px-4 md:px-6 lg:px-10 2xl:px-20 w-full min-h-screen mt-10 bg-black">
+    <div className="px-4 py-15 max-sm:py-0 sm:px-4 md:px-6 lg:px-10 2xl:px-20 w-full min-h-screen mt-10 bg-black">
       <h2 className="text-3xl sm:text-4xl font-bold text-center mb-10 text-white">Projects</h2>
 
       <div className="flex flex-col sm:flex-col md:flex-row md:flex-wrap justify-center items-center gap-10">

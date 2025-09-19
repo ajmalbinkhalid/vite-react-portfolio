@@ -17,14 +17,14 @@ function App() {
   }, []);
   return (
     <div className='overflow-hidden'>
-      <Navbar />
-      <main>
-        <section id="home"><Home /></section>
-        <section id="about"><About /></section>
-        <section id="projects"><Projects /></section>
-        <section id="skills"><TechnicalSkills /></section>
-        <section id="contact"><Contact /></section>
-      </main>
+      <main> <Navbar /></main>
+
+      <section id="home"><Home /></section>
+      <section id="about"><About /></section>
+      <section id="projects"><Projects /></section>
+      <section id="skills"><TechnicalSkills /></section>
+      <section id="contact"><Contact /></section>
+
       <Footer />
     </div>
 

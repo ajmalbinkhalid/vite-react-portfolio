@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-6 lg:gap-8 font-medium">
+        <ul className="hidden sm:flex gap-6 lg:gap-8 font-medium">
           <li>
             <a href="#home" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Home</a>
           </li>
@@ -42,7 +42,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Toggle */}
         <button
-          className="md:hidden text-white text-2xl focus:outline-none"
+          className="sm:hidden text-white text-2xl focus:outline-none"
           onClick={toggleMenu}
         >
           {isOpen ? '✖' : '☰'}
@@ -51,7 +51,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <ul className="md:hidden w-full max-w-screen px-4 pb-4 space-y-4 text-lg font-medium bg-black">
+        <ul className="sm:hidden w-full max-w-screen px-4 pb-4 space-y-4 text-lg font-medium bg-black">
           <li><a href="#home" onClick={closeMenu} className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Home</a></li>
           <li><a href="#about" onClick={closeMenu} className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">About</a></li>
           <li><a href="#projects" onClick={closeMenu} className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Projects</a></li>

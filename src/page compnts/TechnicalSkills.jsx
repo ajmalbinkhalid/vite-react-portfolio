@@ -5,7 +5,7 @@ import { FaCode, FaServer, FaDatabase, FaPaintBrush, FaCloudUploadAlt } from 're
 
 const TechnicalSkills = () => {
   return (
-    <div className="px-4 sm:px-4 md:px-6 lg:px-10 2xl:px-20 w-full min-h-screen mx-auto bg-neutral-950 py-10">
+    <div className="px-4 py-15 max-sm:py-0 sm:px-4 md:px-6 lg:px-10 2xl:px-20 w-full min-h-screen mx-auto bg-neutral-950 py-10">
       <h2 className="text-2xl sm:text-3xl font-bold text-white text-center mb-10">Technical Skills</h2>
 
       <div className="flex flex-wrap justify-center gap-6">

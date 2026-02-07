@@ -8,23 +8,21 @@ const HomeContent = () => {
     return (
 
         <div data-aos="fade-up-right" className="flex flex-col gap-6 max-w-2xl">
-            
+
             {/* Intro Text */}
             <div className="flex flex-col gap-2 text-xl sm:text-3xl">
 
                 <div className="font-medium">
                     Hi I'm,
                     <GradientText
-                        colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
                         animationSpeed={3}
-                        showBorder={false}
-                        className="custom-class text-4xl"
+                        className="custom-class text-4xl sm:text-5xl"
                     >
-                    Ajmal Bin Khalid
+                        AJMAL BIN KHALID
                     </GradientText>
                 </div>
-                <span className="text-4xl sm:text-5xl font-bold">
-                    Mern Stack Developer
+                <span className="text-4xl sm:text-4xl font-bold">
+                    MERN Stack Developer
                 </span>
             </div>
 
@@ -34,7 +32,7 @@ const HomeContent = () => {
                     I build exceptional digital experiences
                 </span>
                 <span className="text-white">
-                    An innovative & passionate frontend Web developer focused on
+                    An innovative & passionate full stack web developer focused on
                     creating dynamic and user-friendly web applications with modern
                     technologies.
                 </span>

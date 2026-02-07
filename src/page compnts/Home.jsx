@@ -22,10 +22,10 @@ const Home = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10  min-h-screen w-full flex flex-col-reverse lg:flex-row items-center justify-evenly lg:gap-0">
+      <div className="relative z-10 min-h-screen w-full flex flex-col-reverse lg:flex-row items-center justify-between lg:gap-0">
 
         {/* Text Content Section */}
-        <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/2 lg:mt-40">
           <HomeContent />
         </div>
 
@@ -40,7 +40,7 @@ const Home = () => {
           <img
             src={homeImage}
             alt="Profile"
-            className="absolute w-60 sm:w-64 md:w-95 lg:w-95 xl:w-110 2xl:w-110 rounded-full object-cover border-white shadow-lg"
+            className="absolute w-70 sm:w-80 md:w-95 lg:w-100 xl:w-108 rounded-full object-cover border-white shadow-lg"
           />
         </div>
 

@@ -23,21 +23,31 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden sm:flex gap-6 lg:gap-8 font-medium">
-          <li>
-            <a href="#home" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Home</a>
-          </li>
-          <li>
-            <a href="#about" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">About</a>
-          </li>
-          <li>
-            <a href="#projects" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Projects</a>
-          </li>
-          <li>
-            <a href="#skills" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Skills</a>
-          </li>
-          <li>
-            <a href="#contact" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Contact</a>
-          </li>
+          <GradientText>
+            <li>
+              <a href="#home" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Home</a>
+            </li>
+          </GradientText>
+          <GradientText>
+            <li>
+              <a href="#about" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">About</a>
+            </li>
+          </GradientText>
+          <GradientText>
+            <li>
+              <a href="#projects" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Projects</a>
+            </li>
+          </GradientText>
+         <GradientText>
+            <li>
+              <a href="#skills" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Skills</a>
+            </li>
+         </GradientText>
+          <GradientText>
+            <li>
+              <a href="#contact" className="hover:text-blue-400 transition-all duration-800 hover:scale-x-105 hover:scale-y-105">Contact</a>
+            </li>
+          </GradientText>
         </ul>
 
         {/* Mobile Menu Toggle */}

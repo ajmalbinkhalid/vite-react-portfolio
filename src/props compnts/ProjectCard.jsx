@@ -24,7 +24,7 @@ const ProjectCard = ({ imageSrc, isVideo, title, description, technologies, gith
 
                     {/* Content Section */}
                     <div className="flex flex-col gap-4">
-                        <h3 className="text-2xl font-semibold">{title}</h3>
+                        <h3 className="text-2xl font-semibold pt-5">{title}</h3>
                         <p className="text-sm text-gray-300 leading-relaxed">{description}</p>
 
                         {/* Tech Stack */}

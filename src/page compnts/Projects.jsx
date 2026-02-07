@@ -1,9 +1,8 @@
 import React from 'react';
 import ProjectCard from '../props compnts/ProjectCard';
 import codeQuizVideo from '../assets/videos/codeQuizVideo.mp4';
-// import codeQuizImg from '../assets/images/codeQuizImg.png';
+import dashboardVideo from '../assets/videos/dashboardVideo.mp4';
 import gentlemenImg from '../assets/images/gentlemenimg.png';
-import goNowImg from '../assets/images/gonowimg.png';
 
 const Projects = () => {
   return (
@@ -30,12 +29,11 @@ const Projects = () => {
         />
 
         <ProjectCard
-          imageSrc={goNowImg}
-          isVideo={false}
-          title="Travelling Company App"
-          description="A simple task management app built with React, allowing users to add, delete, and track tasks efficiently."
+          imageSrc={dashboardVideo}
+          isVideo={true}
+          title="Admin Dashboard"
+          description="Admin dashboard for property management that connect with user and agency websites ,include both arabic and english language"
           technologies={['HTML', 'CSS', 'JavaScript']}
-          githubLink="https://github.com/ajmalbinkhalid/gonow-travel-website"
         />
       </div>
     </div>

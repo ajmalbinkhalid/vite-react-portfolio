@@ -1,6 +1,6 @@
 import HomeContent from "../secondary compnts/HomeContent";
 import Orb from "../react bits compnts/Orb";
-import homeImage from "../assets/images/whitephoto.jpg";
+import homeImage from "../assets/images/photo.jpeg";
 import Particles from "../react bits compnts/Particles";
 
 const Home = () => {

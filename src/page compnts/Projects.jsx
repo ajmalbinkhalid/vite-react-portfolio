@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectCard from '../props compnts/ProjectCard';
 import codeQuizVideo from '../assets/videos/codeQuizVideo.mp4';
 import dashboardVideo from '../assets/videos/dashboardVideo.mp4';
-import gentlemenImg from '../assets/images/gentlemenimg.png';
+// import gentlemenImg from '../assets/images/gentlemenimg.png';
 
 const Projects = () => {
   return (
@@ -10,13 +10,14 @@ const Projects = () => {
       <h2 className="text-3xl sm:text-4xl font-bold text-center mb-10 text-white">Projects</h2>
 
       <div className="flex flex-col sm:flex-col md:flex-row md:flex-wrap justify-center items-center gap-10">
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch"> */}
+
         <ProjectCard
-          imageSrc={gentlemenImg}
-          isVideo={false}
-          title="Shopping Website"
-          description="A simple task management app built with React, allowing users to add, delete, and track tasks efficiently."
-          technologies={['HTML', 'CSS', 'JavaScript']}
-          githubLink="https://github.com/ajmalbinkhalid/Gentlemen"
+          imageSrc={dashboardVideo}
+          isVideo={true}
+          title="Admin Dashboard"
+          description="Admin dashboard for property management that connect with user and agency websites ,include both arabic and english language"
+          technologies={['NEXT JS', 'TAILWIND CSS', 'SHADCN UI', 'ZOD', 'TANSTACK' , 'TYPESCRIPT' ]}
         />
 
         <ProjectCard
@@ -25,16 +26,17 @@ const Projects = () => {
           title="Online Quiz Application"
           description="A weather application using API integration to show real-time data. Built with React and OpenWeatherMap."
           technologies={['HTML', 'CSS', 'JavaScript', 'Bootstrap']}
-          githubLink="https://github.com/ajmalbinkhalid/Code-Quiz-Website"
+          // githubLink="https://github.com/ajmalbinkhalid/Code-Quiz-Website"
         />
 
-        <ProjectCard
-          imageSrc={dashboardVideo}
-          isVideo={true}
-          title="Admin Dashboard"
-          description="Admin dashboard for property management that connect with user and agency websites ,include both arabic and english language"
+        {/* <ProjectCard
+          imageSrc={gentlemenImg}
+          isVideo={false}
+          title="Shopping Website"
+          description="A simple task management app built with React, allowing users to add, delete, and track tasks efficiently."
           technologies={['HTML', 'CSS', 'JavaScript']}
-        />
+          githubLink="https://github.com/ajmalbinkhalid/Gentlemen"
+        /> */}
       </div>
     </div>
   );

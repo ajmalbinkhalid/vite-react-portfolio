@@ -28,7 +28,7 @@ const ProjectCard = ({ imageSrc, isVideo, title, description, technologies, gith
                         <p className="text-sm text-gray-300 leading-relaxed">{description}</p>
 
                         {/* Tech Stack */}
-                        <div className="text-sm font-mono inline-flex gap-2">
+                        <div className="text-sm font-mono flex flex-wrap gap-2">
                             {technologies.map((tech, index) => (
                                 <span key={index} className="bg-blue-700 px-2 py-2 rounded-md ">
                                     {tech}

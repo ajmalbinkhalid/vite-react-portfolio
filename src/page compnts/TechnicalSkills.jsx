@@ -13,37 +13,37 @@ const TechnicalSkills = () => {
           icon={FiLayout}
           title="Front-End Development"
           description="Building responsive, interactive, and accessible user interfaces."
-          skills={['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind', 'Bootstrap', 'Redux']}
+          skills={['React JS', 'Tailwind', 'Tanstack', 'Next JS' , 'Shadcn UI']}
         />
         <TechnicalSkillsCard
           icon={FaServer}
           title="Back-End Development"
           description="Managing server-side logic, APIs, and application architecture."
-          skills={['Node.js', 'Express.js', 'Django', 'REST API']}
+          skills={['Node.js', 'Express.js', 'JWT', 'REST API']}
         />
         <TechnicalSkillsCard
           icon={FaDatabase}
           title="Database Management"
           description="Designing, querying, and optimizing databases."
-          skills={['MySQL', 'MongoDB', 'PostgreSQL', 'Firebase']}
+          skills={['MySQL', 'MongoDB']}
         />
         <TechnicalSkillsCard
           icon={FaCode}
           title="Programming Languages"
           description="Writing logic using modern programming languages."
-          skills={['JavaScript', 'Python', 'Java', 'C#']}
+          skills={['JavaScript', 'Python', 'Java']}
         />
-        <TechnicalSkillsCard
+        {/* <TechnicalSkillsCard
           icon={FaPaintBrush}
           title="UI/UX Design"
           description="Designing user-friendly and aesthetic digital interfaces."
           skills={['Figma', 'Canva', 'Wireframing']}
-        />
+        /> */}
         <TechnicalSkillsCard
           icon={FaCloudUploadAlt}
           title="Deployment"
           description="Deploying and managing applications on servers or cloud."
-          skills={['Vercel', 'Netlify', 'Render', 'GitHub Pages']}
+          skills={['Vercel', 'GitHub Pages']}
         />
       </div>
     </div>

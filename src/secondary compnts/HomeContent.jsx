@@ -22,7 +22,7 @@ const HomeContent = () => {
                     </GradientText>
                 </div>
                 <span className="text-4xl sm:text-4xl font-bold">
-                    MERN Stack Developer
+                    MERN/Python Full Stack Developer
                 </span>
             </div>
 

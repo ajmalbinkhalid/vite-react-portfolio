@@ -19,19 +19,19 @@ const TechnicalSkills = () => {
           icon={FaServer}
           title="Back-End Development"
           description="Managing server-side logic, APIs, and application architecture."
-          skills={['Node.js', 'Express.js', 'JWT', 'REST API']}
+          skills={['Node.js', 'Express.js', 'Django', 'FastAPI', 'JWT', 'REST API']}
         />
         <TechnicalSkillsCard
           icon={FaDatabase}
           title="Database Management"
           description="Designing, querying, and optimizing databases."
-          skills={['MySQL', 'MongoDB']}
+          skills={['MySQL', 'MongoDB', 'PostgreSQL']}
         />
         <TechnicalSkillsCard
           icon={FaCode}
           title="Programming Languages"
           description="Writing logic using modern programming languages."
-          skills={['JavaScript', 'Python', 'Java']}
+          skills={['HTML', 'CSS', 'JavaScript', 'Python']}
         />
         {/* <TechnicalSkillsCard
           icon={FaPaintBrush}

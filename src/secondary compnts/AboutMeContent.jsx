@@ -18,7 +18,7 @@ const AboutMeContent = () => {
       </h2>
       <p className="leading-relaxed">
         I'm Ajmal, a full-stack developer specializing in building exceptional digital experiences. With a strong foundation in the MERN stack
-        (MongoDB, Express.js, React, and Node.js), I create dynamic and user-friendly web applications that solve real-world problems.      </p>
+        (MongoDB, Express.js, React, and Node.js) & Python Full Stack (Django, FastAPI) I create dynamic and user-friendly web applications that solve real-world problems.      </p>
       <p className="">
         My journey in web development began with a curiosity about how things work on the internet.
         That curiosity evolved into a passion for crafting clean, efficient, and scalable code.
